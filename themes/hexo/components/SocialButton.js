@@ -20,6 +20,9 @@ const SocialButton = () => {
   const ENABLE_RSS = siteConfig('ENABLE_RSS')
   const CONTACT_BILIBILI = siteConfig('CONTACT_BILIBILI')
   const CONTACT_YOUTUBE = siteConfig('CONTACT_YOUTUBE')
+  const CONTACT_TIKTOK = siteConfig('CONTACT_TIKTOK')
+  const CONTACT_WEIXIN = siteConfig('CONTACT_WEIXIN')
+  const CONTACT_LINE = siteConfig('CONTACT_LINE')
 
   const CONTACT_XIAOHONGSHU = siteConfig('CONTACT_XIAOHONGSHU')
   const CONTACT_ZHISHIXINGQIU = siteConfig('CONTACT_ZHISHIXINGQIU')
@@ -118,6 +121,33 @@ const SocialButton = () => {
             title={'bilibili'}
             href={CONTACT_BILIBILI}>
             <i className='transform hover:scale-125 duration-150 dark:hover:text-indigo-400 hover:text-indigo-600 fab fa-bilibili' />
+          </a>
+        )}
+        {CONTACT_TIKTOK && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'tiktok'}
+            href={CONTACT_TIKTOK}>
+            <i className='transform hover:scale-125 duration-150 fab fa-tiktok dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_WEIXIN && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'weixin'}
+            href={CONTACT_WEIXIN}>
+            <i className='transform hover:scale-125 duration-150 fab fa-weixin dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_LINE && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'line'}
+            href={CONTACT_LINE}>
+            <i className='transform hover:scale-125 duration-150 fab fa-line dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_YOUTUBE && (
