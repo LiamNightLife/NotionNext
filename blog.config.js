@@ -15,7 +15,7 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Liam的泰语学习', // 您的昵称 例如 tangly1024
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Liam的泰国夜生活', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '提高来泰司机的体验度', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://liamthai.club', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Soi6, Pattaya, 六巷, 曼谷泰浴, 芭提雅, 日式按摩, 口语课, 泰国上门, 曼谷上门, 芭提雅上门, 延时, 色情按摩, Agogo, 啤酒吧, 泰国夜生活', // 网站关键词 英文逗号隔开
